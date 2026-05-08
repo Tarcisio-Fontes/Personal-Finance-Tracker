@@ -1,6 +1,6 @@
-package com.example.test.repositories;
+package com.example.finance.user;
 
-import com.example.test.models.User;
+import com.example.finance.user.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

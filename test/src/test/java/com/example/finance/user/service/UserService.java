@@ -1,9 +1,9 @@
-package com.example.test.service;
+package com.example.finance.service;
 
-import com.example.test.dtos.UserResponseDTO;
-import com.example.test.dtos.UserRegistrationDTO;
-import com.example.test.models.User;
-import com.example.test.repositories.UserRepository;
+import com.example.finance.user.dtos.UserResponseDTO;
+import com.example.finance.user.dtos.UserRegistrationDTO;
+import com.example.finance.user.entities.User;
+import com.example.finance.user.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

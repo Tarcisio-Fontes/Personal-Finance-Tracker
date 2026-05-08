@@ -1,4 +1,4 @@
-package com.example.test.dtos;
+package com.example.finance.user.dtos;
 
 import jakarta.validation.constraints.NotBlank;
 

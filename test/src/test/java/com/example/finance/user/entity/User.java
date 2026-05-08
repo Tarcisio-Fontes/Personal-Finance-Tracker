@@ -1,4 +1,4 @@
-package com.example.test.models;
+package com.example.finance.user.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

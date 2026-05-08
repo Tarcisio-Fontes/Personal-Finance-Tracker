@@ -1,8 +1,8 @@
-package com.example.test.controllers;
+package com.example.finance.user.controllers;
 
-import com.example.test.dtos.UserResponseDTO;
-import com.example.test.dtos.UserRegistrationDTO;
-import com.example.test.service.UserService;
+import com.example.finance.user.dtos.UserResponseDTO;
+import com.example.finance.user.dtos.UserRegistrationDTO;
+import com.example.finance.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

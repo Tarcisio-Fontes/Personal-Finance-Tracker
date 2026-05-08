@@ -1,6 +1,6 @@
-package com.example.test.dtos;
+package com.example.finance.user.dtos;
 
-import com.example.test.models.User;
+import com.example.finance.user.entity.User;
 
 public record UserResponseDTO(String id, String name, String password, String email) {
 
